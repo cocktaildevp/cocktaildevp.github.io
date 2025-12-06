@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dev Portföy"
+    />
+    <title>cocktail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="texture" aria-hidden="true"></div>
+    <main class="canvas">
+      <section class="profile">
+        <figure class="profile__photo">
+          <img
+            src="https://yt3.googleusercontent.com/ytc/AIdro_kgpv6Qg3u9GYYJun-0dkUVcYQj-iHNlxtHGhWFSQunqfI=s900-c-k-c0x00ffffff-no-rj"
+            alt="cocktail'in profil fotoğrafı"
+            loading="lazy"
+          />
+        </figure>
+        <p class="profile__tag">geliştirici</p>
+        <h1>cocktail</h1>
+        <p class="profile__lede">
+          Oyun sunucularına destek sağlayan ve özel scriptler geliştiren bir geliştiriciyim. SunucuDurağı olarak sizlere en iyi hizmeti vermeyi amaçlıyoruz.
+        </p>
+        <ul class="socials">
+          <li><a href="mailto:ozddyigit@gmail.com">E-posta</a></li>
+          <li><a href="https://github.com/cocktaildevp" target="_blank" rel="noreferrer">GitHub</a></li>
+        </ul>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="projects__heading">
+          <p>Projeler</p>
+          <span>></span>
+        </div>
+        <div class="projects__list">
+          <a class="project" href="https://github.com/cocktaildevp/dotUI/" target="_blank" rel="noreferrer">
+            <div>
+              <p class="project__title">dotUI</p>
+              <p class="project__meta">HTML, CSS ve JS tabanlı front-end framework.</p>
+            </div>
+            <span aria-hidden="true">→</span>
+          </a>
+          <div class="projects__list">
+          <a class="project" href="https://github.com/cocktaildevp/gmodworkshoptool" target="_blank" rel="noreferrer">
+            <div>
+              <p class="project__title">GMod Workshop Tool</p>
+              <p class="project__meta">Garry's mod için workshop aracı.</p>
+            </div>
+            <span aria-hidden="true">→</span>
+          </a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>© <span id="year"></span> cocktail · Yeni projelere açığım.</p>
+    </footer>
+  </body>
+</html>
